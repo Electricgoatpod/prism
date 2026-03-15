@@ -64,6 +64,7 @@ See `.env.example`. Key variables:
 
 ## Live Demo
 
-- **Frontend:** https://frontend-brown-nu-53.vercel.app
+- **Frontend (Vercel):** https://frontend-brown-nu-53.vercel.app
+- **Frontend (GitHub Pages):** https://electricgoatpod.github.io/prism/
 - **Backend API:** https://prism-ecl6.onrender.com
 - **API Docs:** https://prism-ecl6.onrender.com/docs
