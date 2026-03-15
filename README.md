@@ -24,8 +24,8 @@ cp .env.example .env
 uv run python main.py
 ```
 
-API: http://localhost:8000  
-Docs: http://localhost:8000/docs  
+API: http://localhost:8000 (local) · https://prism-ecl6.onrender.com (live)  
+Docs: http://localhost:8000/docs (local) · https://prism-ecl6.onrender.com/docs (live)  
 
 ### Frontend
 
@@ -35,7 +35,7 @@ npm install
 npm run dev
 ```
 
-App: http://localhost:5173 (proxies `/api` and `/health` to the backend).
+App: http://localhost:5204 (proxies `/api` and `/health` to the backend).
 
 ## Flow
 
