@@ -61,3 +61,9 @@ See `.env.example`. Key variables:
 - `NEBIUS_API_KEY` — Required for LLM calls.
 - `AGENT_RUN_CRON` — Cron expression (default `0 6 * * *` = 6 AM daily).
 - `AGENT_ENABLED` — Set to `false` to disable the scheduler.
+
+## Live Demo
+
+- **Frontend:** https://frontend-brown-nu-53.vercel.app
+- **Backend API:** https://prism-ecl6.onrender.com
+- **API Docs:** https://prism-ecl6.onrender.com/docs
