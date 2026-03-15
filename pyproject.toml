@@ -1,0 +1,22 @@
+[project]
+name = "prism"
+version = "0.1.0"
+description = "Private edge inference agent: wearable data → anonymous LLM signals → daily performance forecast"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "httpx>=0.28.0",
+    "pydantic>=2.10.0",
+    "pydantic-settings>=2.6.0",
+    "apscheduler>=3.10.0",
+    "python-dotenv>=1.0.0",
+    "openai>=1.55.0",  # Nebius Token Factory is OpenAI-compatible
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+]
